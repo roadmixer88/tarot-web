@@ -1,0 +1,40 @@
+{
+  "pastPresentFuture": {
+    "name": "Past Present Future",
+    "positions": [
+      "Past Influence",
+      "Present Situation",
+      "Future Outcome"
+    ]
+  },
+  "fiveCardFate": {
+    "name": "Five Card Fate",
+    "positions": [
+      "Past",
+      "Present",
+      "Future",
+      "Known",
+      "Unknown"
+    ]
+  },
+  "fiveCardCross": {
+    "name": "Five Card Cross",
+    "positions": [
+      "South: Where you are coming from",
+      "West: What is directly behind you",
+      "East: What lies in front of you",
+      "North: The next move to make",
+      "Center: The core situation or challenge"
+    ]
+  },
+  "conspiracy": {
+    "name": "Conspiracy Spread",
+    "positions": [
+      "The Hidden Mastermind",
+      "The Conspiracy's Method",
+      "The Unwitting Pawn",
+      "The Crack in the Plot",
+      "The Final Catastrophe"
+    ]
+  }
+}
