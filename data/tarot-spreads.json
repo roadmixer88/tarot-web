@@ -23,11 +23,11 @@
     "id": "fiveCardCross",
     "name": "Five Card Cross",
     "positions": [
-      "South: Where you are coming from",
-      "West: What is directly behind you",
-      "East: What lies in front of you",
-      "North: The next move to make",
-      "Center: The core situation or challenge"
+      "South: Your past journey",
+      "West: Right behind you",
+      "East: Right in front of you",
+      "North: Your next move",
+      "Center: The core situation"
     ]
   },
   {
