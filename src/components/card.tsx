@@ -14,8 +14,6 @@ export interface CardDeal {
     facing: 'Upright' | 'Reverse';
 }
 
-
-
 export function CardComponent({ deal }: { deal: CardDeal }) {
     const [isFlipped, setIsFlipped] = useState(false);
     // Function to cause the card to flip when clicked

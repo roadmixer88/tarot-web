@@ -1,34 +1,3 @@
-.controls {
-  gap: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-.spreadSelector {
-  font-size: 1rem;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  &:hover {
-    border-color: #999;
-  }
-  &:focus {
-    border-color: #999;
-  }
-}
-
-.horizontal {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.single {
-  display: flex;
-  justify-content: center;
-}
-
 .card-wrapper {
   margin: 1rem;
   width: 230px;

@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center gap-8 p-8">
-      <div className="controls">
+      <div className="flex justify-center gap-4">
         <select className="p-1 border border-white hover:bg-gray-600 rounded text-base" name="spread" id="spread" value={selectedSpread.name} onChange={(e) => {
           const selected = spreads.find((s) => s.name === e.target.value)
           if (selected) {
