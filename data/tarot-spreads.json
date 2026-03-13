@@ -1,5 +1,6 @@
-{
-  "pastPresentFuture": {
+[
+  {
+    "id": "threeCard",
     "name": "Past Present Future",
     "positions": [
       "Past Influence",
@@ -7,7 +8,8 @@
       "Future Outcome"
     ]
   },
-  "fiveCardFate": {
+  {
+    "id": "fiveCardFate",
     "name": "Five Card Fate",
     "positions": [
       "Past",
@@ -17,7 +19,8 @@
       "Unknown"
     ]
   },
-  "fiveCardCross": {
+  {
+    "id": "fiveCardCross",
     "name": "Five Card Cross",
     "positions": [
       "South: Where you are coming from",
@@ -27,7 +30,8 @@
       "Center: The core situation or challenge"
     ]
   },
-  "conspiracy": {
+  {
+    "id": "conspiracy",
     "name": "Conspiracy Spread",
     "positions": [
       "The Hidden Mastermind",
@@ -37,4 +41,4 @@
       "The Final Catastrophe"
     ]
   }
-}
+]
