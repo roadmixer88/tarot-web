@@ -1,19 +1,39 @@
 
 export interface Card {
-    arcana: 'Major' | 'Lesser';
+    arcana: string;
     number: number;
     name: string;
     alternateName: string;
-    facing?: 'Upright' | 'Reversed';
     image: string;
 }
 
-export function CardComponent({card}: {card: Card}) {
+export interface CardDeal {
+    position: string;
+    card: Card;
+    facing: 'Upright' | 'Reverse';
+}
+
+// Function to cause the card to flip when clicked
+function flipCard(event: React.MouseEvent<HTMLDivElement>) {
+    const cardElement = event.currentTarget;
+    cardElement.classList.toggle('flipped');
+}
+
+export function CardComponent({ deal }: { deal: CardDeal }) {
+    const { card, facing, position } = deal;
+    const imageSrc = facing === 'Reverse' ? `/cards/${card.image}-reverse.gif` : `/cards/${card.image}.gif`;
     return (
-        <div className={`card card--facing-${card.facing}`}>
-            <img src={`/cards/${card.image}`} alt={`${card.name} - ${card.alternateName} - (${card.facing})`} />
-            <h2>{card.name}</h2>
-            <p>{card.alternateName}</p>
+        <div className="card-wrapper" onClick={flipCard}>
+            <div className="card-flipper">
+                <div className={`card-back`}>
+                    <img src={imageSrc} alt={`${card.name} - ${card.alternateName} - (${facing})`} />
+                </div>
+                <div className="card-front">
+                    <img src={`/cards/X-RL.gif`} alt="Card Back" />
+                </div>
+            </div>
+            <span className="card-position">{position}</span>
         </div>
+
     );
 }

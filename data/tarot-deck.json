@@ -4,545 +4,545 @@
     "name": "The Fool",
     "alternateName": "The Unmarked Vessel",
     "arcana": "Major",
-    "image": "T-00.gif"
+    "image": "T-00"
   },
   {
     "number": 1,
     "name": "The Magician",
     "alternateName": "The Veilbinder",
     "arcana": "Major",
-    "image": "T-01.gif"
+    "image": "T-01"
   },
   {
     "number": 2,
     "name": "The High Priestess",
     "alternateName": "The Shimmer-Seer",
     "arcana": "Major",
-    "image": "T-02.gif"
+    "image": "T-02"
   },
   {
     "number": 3,
     "name": "The Empress",
     "alternateName": "The Broodmother of Plenty",
     "arcana": "Major",
-    "image": "T-03.gif"
+    "image": "T-03"
   },
   {
     "number": 4,
     "name": "The Emperor",
     "alternateName": "The Iron Regent",
     "arcana": "Major",
-    "image": "T-04.gif"
+    "image": "T-04"
   },
   {
     "number": 5,
     "name": "The Hierophant",
     "alternateName": "The Oathbound Voice",
     "arcana": "Major",
-    "image": "T-05.gif"
+    "image": "T-05"
   },
   {
     "number": 6,
     "name": "The Lovers",
     "alternateName": "The Binding Pact",
     "arcana": "Major",
-    "image": "T-06.gif"
+    "image": "T-06"
   },
   {
     "number": 7,
     "name": "The Chariot",
     "alternateName": "The War Engine",
     "arcana": "Major",
-    "image": "T-07.gif"
+    "image": "T-07"
   },
   {
     "number": 8,
     "name": "Strength",
     "alternateName": "The Blood-Tamed Beast",
     "arcana": "Major",
-    "image": "T-08.gif"
+    "image": "T-08"
   },
   {
     "number": 9,
     "name": "The Hermit",
     "alternateName": "The Veiled Watcher",
     "arcana": "Major",
-    "image": "T-09.gif"
+    "image": "T-09"
   },
   {
     "number": 10,
     "name": "Wheel of Fortune",
     "alternateName": "The Turning Shimmer",
     "arcana": "Major",
-    "image": "T-10.gif"
+    "image": "T-10"
   },
   {
     "number": 11,
     "name": "Justice",
     "alternateName": "The Radiant Scale",
     "arcana": "Major",
-    "image": "T-11.gif"
+    "image": "T-11"
   },
   {
     "number": 12,
     "name": "The Hanged Man",
     "alternateName": "The Willing Martyr",
     "arcana": "Major",
-    "image": "T-12.gif"
+    "image": "T-12"
   },
   {
     "number": 13,
     "name": "Death",
     "alternateName": "The Black Refrain",
     "arcana": "Major",
-    "image": "T-13.gif"
+    "image": "T-13"
   },
   {
     "number": 14,
     "name": "Temperance",
     "alternateName": "The Measured Alchemist",
     "arcana": "Major",
-    "image": "T-14.gif"
+    "image": "T-14"
   },
   {
     "number": 15,
     "name": "The Devil",
     "alternateName": "The Serpent Syndicate",
     "arcana": "Major",
-    "image": "T-15.gif"
+    "image": "T-15"
   },
   {
     "number": 16,
     "name": "The Tower",
     "alternateName": "The Shattered Bastion",
     "arcana": "Major",
-    "image": "T-16.gif"
+    "image": "T-16"
   },
   {
     "number": 17,
     "name": "The Star",
     "alternateName": "The Distant Radiance",
     "arcana": "Major",
-    "image": "T-17.gif"
+    "image": "T-17"
   },
   {
     "number": 18,
     "name": "The Moon",
     "alternateName": "The Whispering Veins",
     "arcana": "Major",
-    "image": "T-18.gif"
+    "image": "T-18"
   },
   {
     "number": 19,
     "name": "The Sun",
     "alternateName": "The Blazing Oath",
     "arcana": "Major",
-    "image": "T-19.gif"
+    "image": "T-19"
   },
   {
     "number": 20,
     "name": "Judgment",
     "alternateName": "The Final Reckoning",
     "arcana": "Major",
-    "image": "T-20.gif"
+    "image": "T-20"
   },
   {
     "number": 21,
     "name": "The World",
     "alternateName": "The Sealed Gate",
     "arcana": "Major",
-    "image": "T-21.gif"
+    "image": "T-21"
   },
   {
     "number": 22,
     "name": "Ace of Cups",
     "alternateName": "First Blood Communion",
     "arcana": "Lesser",
-    "image": "C-0A.gif"
+    "image": "C-0A"
   },
   {
     "number": 23,
     "name": "2 of Cups",
     "arcana": "Lesser",
     "alternateName": "The Shared Chalice",
-    "image": "C-02.gif"
+    "image": "C-02"
   },
   {
     "number": 24,
     "name": "3 of Cups",
     "arcana": "Lesser",
     "alternateName": "The Blood Communion",
-    "image": "C-03.gif"
+    "image": "C-03"
   },
   {
     "number": 25,
     "name": "4 of Cups",
     "arcana": "Lesser",
     "alternateName": "The Bitter Draught",
-    "image": "C-04.gif"
+    "image": "C-04"
   },
   {
     "number": 26,
     "name": "5 of Cups",
     "alternateName": "Ashes of Insight",
     "arcana": "Lesser",
-    "image": "C-05.gif"
+    "image": "C-05"
   },
   {
     "number": 27,
     "name": "6 of Cups",
     "arcana": "Lesser",
     "alternateName": "The Memory Chalice",
-    "image": "C-06.gif"
+    "image": "C-06"
   },
   {
     "number": 28,
     "name": "7 of Cups",
     "arcana": "Lesser",
     "alternateName": "The River's Mirage",
-    "image": "C-07.gif"
+    "image": "C-07"
   },
   {
     "number": 29,
     "name": "8 of Cups",
     "arcana": "Lesser",
     "alternateName": "The Abandoned Cup",
-    "image": "C-08.gif"
+    "image": "C-08"
   },
   {
     "number": 30,
     "name": "9 of Cups",
     "alternateName": "The Serpent's Feast",
     "arcana": "Lesser",
-    "image": "C-09.gif"
+    "image": "C-09"
   },
   {
     "number": 31,
     "name": "10 of Cups",
     "arcana": "Lesser",
     "alternateName": "The River of Devotion",
-    "image": "C-10.gif"
+    "image": "C-10"
   },
   {
     "number": 32,
     "name": "Page of Cups",
     "alternateName": "The Chalice's Child",
     "arcana": "Lesser",
-    "image": "C-J1.gif"
+    "image": "C-J1"
   },
   {
     "number": 33,
     "name": "Knight of Cups",
     "alternateName": "The Guardian of the Feast",
     "arcana": "Lesser",
-    "image": "C-J2.gif"
+    "image": "C-J2"
   },
   {
     "number": 34,
     "name": "Queen of Cups",
     "alternateName": "The Matron of Wine",
     "arcana": "Lesser",
-    "image": "C-QU.gif"
+    "image": "C-QU"
   },
   {
     "number": 35,
     "name": "King of Cups",
     "alternateName": "The Red King",
     "arcana": "Lesser",
-    "image": "C-KI.gif"
+    "image": "C-KI"
   },
   {
     "number": 36,
     "name": "Ace of Wands",
     "alternateName": "Flame's First Spark",
     "arcana": "Lesser",
-    "image": "W-0A.gif"
+    "image": "W-0A"
   },
   {
     "number": 37,
     "name": "2 of Wands",
     "arcana": "Lesser",
     "alternateName": "The Twin Directions",
-    "image": "W-02.gif"
+    "image": "W-02"
   },
   {
     "number": 38,
     "name": "3 of Wands",
     "arcana": "Lesser",
     "alternateName": "The Rising Flame",
-    "image": "W-03.gif"
+    "image": "W-03"
   },
   {
     "number": 39,
     "name": "4 of Wands",
     "arcana": "Lesser",
     "alternateName": "The Motive Pact",
-    "image": "W-04.gif"
+    "image": "W-04"
   },
   {
     "number": 40,
     "name": "5 of Wands",
     "alternateName": "Gang War in the Gutters",
     "arcana": "Lesser",
-    "image": "W-05.gif"
+    "image": "W-05"
   },
   {
     "number": 41,
     "name": "6 of Wands",
     "arcana": "Lesser",
     "alternateName": "The Victor's Flame",
-    "image": "W-06.gif"
+    "image": "W-06"
   },
   {
     "number": 42,
     "name": "7 of Wands",
     "arcana": "Lesser",
     "alternateName": "The Defiant Torch",
-    "image": "W-07.gif"
+    "image": "W-07"
   },
   {
     "number": 43,
     "name": "8 of Wands",
     "arcana": "Lesser",
     "alternateName": "The Wildfire Arrows",
-    "image": "W-08.gif"
+    "image": "W-08"
   },
   {
     "number": 44,
     "name": "9 of Wands",
     "alternateName": "The Wounded Warrior",
     "arcana": "Lesser",
-    "image": "W-09.gif"
+    "image": "W-09"
   },
   {
     "number": 45,
     "name": "10 of Wands",
     "alternateName": "Burden of Too Many Lies",
     "arcana": "Lesser",
-    "image": "W-10.gif"
+    "image": "W-10"
   },
   {
     "number": 46,
     "name": "Page of Wands",
     "alternateName": "The Young Firebrand",
     "arcana": "Lesser",
-    "image": "W-J1.gif"
+    "image": "W-J1"
   },
   {
     "number": 47,
     "name": "Knight of Wands",
     "alternateName": "The Heated Guardian",
     "arcana": "Lesser",
-    "image": "W-J2.gif"
+    "image": "W-J2"
   },
   {
     "number": 48,
     "name": "Queen of Wands",
     "alternateName": "The Queen of Ambition",
     "arcana": "Lesser",
-    "image": "W-QU.gif"
+    "image": "W-QU"
   },
   {
     "number": 49,
     "name": "King of Wands",
     "alternateName": "The Gin (King of Fire)",
     "arcana": "Lesser",
-    "image": "W-KI.gif"
+    "image": "W-KI"
   },
   {
     "number": 50,
     "name": "Ace of Coins",
     "alternateName": "The Prison",
     "arcana": "Lesser",
-    "image": "P-0A.gif"
+    "image": "P-0A"
   },
   {
     "number": 51,
     "name": "2 of Coins",
     "alternateName": "The Manacles",
     "arcana": "Lesser",
-    "image": "P-02.gif"
+    "image": "P-02"
   },
   {
     "number": 52,
     "name": "3 of Coins",
     "arcana": "Lesser",
     "alternateName": "The Builder's Accord",
-    "image": "P-03.gif"
+    "image": "P-03"
   },
   {
     "number": 53,
     "name": "4 of Coins",
     "arcana": "Lesser",
     "alternateName": "The Hoarded Stone",
-    "image": "P-04.gif"
+    "image": "P-04"
   },
   {
     "number": 54,
     "name": "5 of Coins",
     "alternateName": "Plague Beggars",
     "arcana": "Lesser",
-    "image": "P-05.gif"
+    "image": "P-05"
   },
   {
     "number": 55,
     "name": "6 of Coins",
     "arcana": "Lesser",
     "alternateName": "The Measured Tribute",
-    "image": "P-06.gif"
+    "image": "P-06"
   },
   {
     "number": 56,
     "name": "7 of Coins",
     "arcana": "Lesser",
     "alternateName": "The Patient Harvest",
-    "image": "P-07.gif"
+    "image": "P-07"
   },
   {
     "number": 57,
     "name": "8 of Coins",
     "arcana": "Lesser",
     "alternateName": "The Master's Labor",
-    "image": "P-08.gif"
+    "image": "P-08"
   },
   {
     "number": 58,
     "name": "9 of Coins",
     "arcana": "Lesser",
     "alternateName": "The Garden of Prosperity",
-    "image": "P-09.gif"
+    "image": "P-09"
   },
   {
     "number": 59,
     "name": "10 of Coins",
     "alternateName": "Dynasty of Rot",
     "arcana": "Lesser",
-    "image": "P-10.gif"
+    "image": "P-10"
   },
   {
     "number": 60,
     "name": "Page of Coins",
     "alternateName": "Plague's Bane",
     "arcana": "Lesser",
-    "image": "P-J1.gif"
+    "image": "P-J1"
   },
   {
     "number": 61,
     "name": "Knight of Coins",
     "arcana": "Lesser",
     "alternateName": "The Tireless Steward",
-    "image": "P-J2.gif"
+    "image": "P-J2"
   },
   {
     "number": 62,
     "name": "Queen of Coins",
     "arcana": "Lesser",
     "alternateName": "The Matron of Fields",
-    "image": "P-QU.gif"
+    "image": "P-QU"
   },
   {
     "number": 63,
     "name": "King of Coins",
     "alternateName": "King of Greed",
     "arcana": "Lesser",
-    "image": "P-KI.gif"
+    "image": "P-KI"
   },
   {
     "number": 64,
     "name": "Ace of Swords",
     "alternateName": "The Ambush",
     "arcana": "Lesser",
-    "image": "S-0A.gif"
+    "image": "S-0A"
   },
   {
     "number": 65,
     "name": "2 of Swords",
     "alternateName": "The Two-Edged Blade",
     "arcana": "Lesser",
-    "image": "S-02.gif"
+    "image": "S-02"
   },
   {
     "number": 66,
     "name": "3 of Swords",
     "alternateName": "Heart Pierced by Truth",
     "arcana": "Lesser",
-    "image": "S-03.gif"
+    "image": "S-03"
   },
   {
     "number": 67,
     "name": "4 of Swords",
     "arcana": "Lesser",
     "alternateName": "The Silent Ward",
-    "image": "S-04.gif"
+    "image": "S-04"
   },
   {
     "number": 68,
     "name": "5 of Swords",
     "arcana": "Lesser",
     "alternateName": "The Bitter Wind",
-    "image": "S-05.gif"
+    "image": "S-05"
   },
   {
     "number": 69,
     "name": "6 of Swords",
     "arcana": "Lesser",
     "alternateName": "The Crossing Gale",
-    "image": "S-06.gif"
+    "image": "S-06"
   },
   {
     "number": 70,
     "name": "7 of Swords",
     "arcana": "Lesser",
     "alternateName": "The Whispered Betrayal",
-    "image": "S-07.gif"
+    "image": "S-07"
   },
   {
     "number": 71,
     "name": "8 of Swords",
     "arcana": "Lesser",
     "alternateName": "The Prison of Blades",
-    "image": "S-08.gif"
+    "image": "S-08"
   },
   {
     "number": 72,
     "name": "9 of Swords",
     "alternateName": "Night of Black Veins",
     "arcana": "Lesser",
-    "image": "S-09.gif"
+    "image": "S-09"
   },
   {
     "number": 73,
     "name": "10 of Swords",
     "alternateName": "Execution in Silence",
     "arcana": "Lesser",
-    "image": "S-10.gif"
+    "image": "S-10"
   },
   {
     "number": 74,
     "name": "Page of Swords",
     "alternateName": "The Bard",
     "arcana": "Lesser",
-    "image": "S-J1.gif"
+    "image": "S-J1"
   },
   {
     "number": 75,
     "name": "Knight of Swords",
     "alternateName": "The Errant",
     "arcana": "Lesser",
-    "image": "S-J2.gif"
+    "image": "S-J2"
   },
   {
     "number": 76,
     "name": "Queen of Swords",
     "alternateName": "The Battle-Born",
     "arcana": "Lesser",
-    "image": "S-QU.gif"
+    "image": "S-QU"
   },
   {
     "number": 77,
     "name": "King of Swords",
     "alternateName": "The Conqueror",
     "arcana": "Lesser",
-    "image": "S-KI.gif"
+    "image": "S-KI"
   }
 ]
