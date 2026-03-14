@@ -5,6 +5,7 @@ import deck from '../data/tarot-deck.json'
 import spreads from '../data/tarot-spreads.json'
 import './App.css'
 import { FiveCardCross } from './components/FiveCardCross'
+import { CelticCross } from './components/CelticCross'
 
 // Fisher-Yates Shuffle
 function shuffle(deck: Card[]): Card[] {
@@ -41,19 +42,27 @@ function drawSpread(spread: { id: string, name: string; positions: string[] }, d
   }));
 }
 
-
+function SpreadComponent({ spreadType, spread }: { spreadType: typeof spreads[0], spread: CardDeal[] }) {
+  if (spreadType.id === "fiveCardCross") {
+    return <FiveCardCross spread={spread} />
+  } else if (spreadType.id === "celticCross") {
+    return <CelticCross spread={spread} />
+  } else {
+    return <CardRow spread={spread} />
+  }
+}
 
 function App() {
-  const [selectedSpread, setSelectedSpread] = useState<(typeof spreads)[0]>(spreads[0]);
-  const [spread, setSpread] = useState<CardDeal[]>(drawSpread(selectedSpread, shuffle(deck)));
+  const [selectedType, setSelectedType] = useState<(typeof spreads)[0]>(spreads[0]);
+  const [spread, setSpread] = useState<CardDeal[]>(drawSpread(selectedType, shuffle(deck)));
 
   return (
     <div className="flex flex-col items-center justify-center gap-8 p-8">
       <div className="flex justify-center gap-4">
-        <select className="p-1 border border-white hover:bg-gray-600 rounded text-base" name="spread" id="spread" value={selectedSpread.name} onChange={(e) => {
+        <select className="p-1 border border-white hover:bg-gray-600 rounded text-base" name="spread" id="spread" value={selectedType.name} onChange={(e) => {
           const selected = spreads.find((s) => s.name === e.target.value)
           if (selected) {
-            setSelectedSpread(selected)
+            setSelectedType(selected)
             setSpread(drawSpread(selected, shuffle(deck)))
           }
         }}>
@@ -61,14 +70,9 @@ function App() {
             <option className="p-1 bg-gray-900 text-white hover:bg-gray-600 text-base" key={spread.name} value={spread.name}>{spread.name}</option>
           ))}
         </select>
-        <button className="p-1 border border-white hover:bg-gray-600 rounded text-base" onClick={() => setSpread(drawSpread(selectedSpread, shuffle(deck)))}>Deal</button>
+        <button className="p-1 border border-white hover:bg-gray-600 rounded text-base" onClick={() => setSpread(drawSpread(selectedType, shuffle(deck)))}>Deal</button>
       </div>
-
-      {selectedSpread.id !== "fiveCardCross" ? (
-        <CardRow spread={spread} />
-      ) : (
-        <FiveCardCross spread={spread} />
-      )}
+      <SpreadComponent spreadType={selectedType} spread={spread} />
     </div>
 
   )

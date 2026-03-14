@@ -20,6 +20,17 @@
     ]
   },
   {
+    "id": "conspiracy",
+    "name": "Conspiracy Spread",
+    "positions": [
+      "The Hidden Mastermind",
+      "The Conspiracy's Method",
+      "The Unwitting Pawn",
+      "The Crack in the Plot",
+      "The Final Catastrophe"
+    ]
+  },
+  {
     "id": "fiveCardCross",
     "name": "Five Card Cross",
     "positions": [
@@ -31,14 +42,19 @@
     ]
   },
   {
-    "id": "conspiracy",
-    "name": "Conspiracy Spread",
+    "id": "celticCross",
+    "name": "Celtic Cross",
     "positions": [
-      "The Hidden Mastermind",
-      "The Conspiracy's Method",
-      "The Unwitting Pawn",
-      "The Crack in the Plot",
-      "The Final Catastrophe"
+      "The Present",
+      "The Challenge",
+      "Focus On",
+      "The Past",
+      "Your Strengths",
+      "The Future",
+      "Suggested Approach",
+      "External Influences",
+      "Hopes and Fears",
+      "Potential Outcome"
     ]
   }
 ]
