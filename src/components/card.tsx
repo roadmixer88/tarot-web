@@ -14,7 +14,7 @@ export interface CardDeal {
     facing: 'Upright' | 'Reverse';
 }
 
-export function CardComponent({ deal }: { deal: CardDeal }) {
+export function CardComponent({ deal, rotation }: { deal: CardDeal; rotation?: number }) {
     const [isFlipped, setIsFlipped] = useState(false);
     // Function to cause the card to flip when clicked
     function flipCard(event: React.MouseEvent<HTMLDivElement>) {
@@ -23,13 +23,13 @@ export function CardComponent({ deal }: { deal: CardDeal }) {
         setIsFlipped(!isFlipped);
     }
     const { card, facing, position } = deal;
-    const imageSrc = facing === 'Reverse' ? `/cards/${card.image}-reverse.gif` : `/cards/${card.image}.gif`;
-
+    const imageSrc = `/cards/${card.image}.gif`;
+    const rotate = deal.facing === 'Reverse' ? 180 + (rotation || 0) : rotation || 0;
     return (
         <div >
             <div className="card-wrapper" onClick={flipCard}>
-                <div className="card-flipper">
-                    <div className={`card-back`}>
+                <div className={`card-flipper rotate-${rotate}`}>
+                    <div className="card-back">
                         <img src={imageSrc} alt={`${card.name} - ${card.alternateName} - (${facing})`} />
                     </div>
                     <div className="card-front">
